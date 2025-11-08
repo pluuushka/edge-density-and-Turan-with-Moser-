@@ -1,5 +1,5 @@
 # n - count of vertex, p - edge density
-def generator_of_unoriented(n, p):
+def generator_of_unoriented_graph(n, p):
     m = n * (n - 1) * p / 2 # |E| = m, G = (V, E)
 
     A = [[0] * n for _ in range(n)]
