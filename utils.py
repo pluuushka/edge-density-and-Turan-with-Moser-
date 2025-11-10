@@ -56,8 +56,8 @@ def turan_graph(n, r): # n - count of vertex, r - count of subsets
 
     return R
 
-def muna_mosera_graph(n):
-    return turan_graph(n, n/3)
+def muna_mosera_graph(m):
+    return turan_graph(3 * m, m)
 
 
 
